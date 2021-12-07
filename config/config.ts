@@ -10,6 +10,8 @@ const { REACT_APP_ENV } = process.env;
 
 export default defineConfig({
   hash: true,
+  base: '/ant-design-pro-simple/',
+  publicPath: '/ant-design-pro-simple/',
   antd: {},
   dva: {
     hmr: true,
